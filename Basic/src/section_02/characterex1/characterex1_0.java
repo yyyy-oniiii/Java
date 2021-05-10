@@ -18,6 +18,8 @@ public class characterex1_0 {
         char ch2 = 65;
         System.out.println(ch2);      // 정수 값(ASCII)에 해당되는 문자 출력
 
+        char ch6 = '\uD55C';          // 정수 값(ASCII)에 해당되는 한글 문자 출력
+
         char ch3 = 'Y';
         char ch4 = 'O';
         char ch5 = 'N';
@@ -27,5 +29,6 @@ public class characterex1_0 {
                                       // 'A'와 "A"는 전혀 다른 값을 가진다. 
                                       // 문자열을 다룰 땐 String 클래스 사용
                                       // char 형은 음수 값을 표현할 수 없음
+        System.out.println(ch6);       
     }
 }
