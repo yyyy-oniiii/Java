@@ -18,7 +18,7 @@ public class operator1_6 {
         System.out.println(value);
 
         boolean val = (5 > 2) && (5 < 3);   // 논리곱, 둘 다 참이어야 참
-        boolean val2 = (5 > 2) || (5 < 2);  // 논리합, 둘 중 하나만 참이어도 참
+        boolean val2 = (5 > 2) | (5 < 2);  // 논리합, 둘 중 하나만 참이어도 참
         boolean val3 = !(5 > 2);            // 부정, 참이면 거짓, 거짓이면 참
 
         System.out.println(val);
