@@ -7,7 +7,7 @@ package etc;
     public class dead_code {
         public static void main(String[] args) {
             
-            int num1 = 1;   // Dead Code (선언 후 사용되지 않은 변수)
+            //  int num1 = 1;   // Dead Code (선언 후 사용되지 않은 변수)
 
             int num2 = 2;
             System.out.println(num2);

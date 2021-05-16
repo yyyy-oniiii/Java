@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch switch_case1_1",
+            "request": "launch",
+            "mainClass": "section_04.switch_case.switch_case1_1",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop1_1",
+            "request": "launch",
+            "mainClass": "section_04.loop.loop1_1",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch bit_operator1_1",
+            "request": "launch",
+            "mainClass": "bit_operator1_1",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch operator1_4",
+            "request": "launch",
+            "mainClass": "section_03.operator.operator1_4",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch type_conversion1_1",
+            "request": "launch",
+            "mainClass": "section_02.type_conversion1.type_conversion1_1",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch characterex1_1",
+            "request": "launch",
+            "mainClass": "section_02.characterex1.characterex1_1",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch float_n_double1_0",
+            "request": "launch",
+            "mainClass": "section_02.float_n_double1.float_n_double1_0",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
+            "name": "Launch characterex1_0",
+            "request": "launch",
+            "mainClass": "section_02.characterex1.characterex1_0",
+            "projectName": "Java_e220ab16"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "console": "internalConsole",
