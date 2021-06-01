@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 import src.Aircon;
 import src.Lighting;
 import src.Security;
@@ -6,11 +8,11 @@ import src.Security;
 public class OkJavaHome {
     public static void main(String[] args) {
 
-        String id = "JAVA APT 307";
+        String id = JOptionPane.showInputDialog("Room Number?");
 
         // Aircon On
         Aircon myAircon = new Aircon(id);
-        myAircon.on(20.5d);
+        myAircon.on();
 
         // Security off
         Security mySecurity = new Security(id);
